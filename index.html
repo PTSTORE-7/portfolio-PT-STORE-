@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>PORTOFOLIO | PT STORE</title>
+  <meta name="description" content="PT STORE Bangun website mewah, toko online eksklusif, dan identitas digital yang berkelas." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="PORTOFOLIO | PT STORE" />
+  <meta property="og:description" content="PT STORE Bangun website mewah, toko online eksklusif, dan identitas digital yang berkelas." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PORTOFOLIO | PT STORE" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ── NAVBAR ──────────────────────────────── -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">PT<span class="dot">•</span>STORE
+      <nav class="desktop-nav">
+        <a href="#home"     class="nav-link">Beranda</a>
+        <a href="#services" class="nav-link">Layanan</a>
+        <a href="#skills"   class="nav-link">Keahlian</a>
+        <a href="#about"    class="nav-link">Tentang</a>
+        <a href="#contact"  class="nav-link">Kontak</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home"     class="mob-link">Beranda</a>
+      <a href="#services" class="mob-link">Layanan</a>
+      <a href="#skills"   class="mob-link">Keahlian</a>
+      <a href="#about"    class="mob-link">Tentang</a>
+      <a href="#contact"  class="mob-link">Kontak</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ──────────────────────────────── -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container hero-grid">
+
+        <!-- Left -->
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Online 24/7
+          </div>
+          <h1 class="hero-title">
+            <span class="word">Kami</span>
+            <span class="word">Ciptakan</span><br>
+            <span class="word purple">Website</span>
+            <span class="word purple">Mewah</span><br>
+            <span class="word">Untuk</span>
+            <span class="word">Brand</span>
+            <span class="word">Anda</span>
+          </h1>
+          <p class="hero-desc">
+            PT STORE menghadirkan website eksklusif, toko online, dan identitas digital berkelas untuk brand Indonesia.
+          </p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn-primary">Mulai Kolaborasi →</a>
+            <a href="#skills"  class="btn-outline">Lihat Keahlian ↗</a>
+          </div>
+        </div>
+
+        <!-- Right: Code Visual -->
+        <div class="hero-right">
+          <div class="orbit-ring orbit-ring-1"></div>
+          <div class="orbit-ring orbit-ring-2"></div>
+          <div class="code-card">
+            <div class="code-topbar">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+              <span class="filename">index.html</span>
+            </div>
+            <div class="code-body">
+              <div><span class="c-tag">&lt;div</span> <span class="c-attr">class</span>=<span class="c-str">"luxury"</span><span class="c-tag">&gt;</span></div>
+              <div>&nbsp;&nbsp;<span class="c-tag">&lt;h1&gt;</span><span class="c-txt">PT STORE</span><span class="c-tag">&lt;/h1&gt;</span></div>
+              <div>&nbsp;&nbsp;<span class="c-tag">&lt;p&gt;</span><span class="c-blink">Developer</span><span class="c-tag">&lt;/p&gt;</span></div>
+              <div><span class="c-tag">&lt;/div&gt;</span></div>
+            </div>
+          </div>
+          <div class="orbit-badge badge-html">HTML</div>
+          <div class="orbit-badge badge-css">CSS</div>
+          <div class="orbit-badge badge-js">JS</div>
+          <div class="orbit-badge badge-react">React</div>
+          <div class="orbit-badge badge-node">Node</div>
+        </div>
+
+      </div>
+
+      <!-- Stats -->
+      <div class="container">
+        <div class="hero-stats">
+          <div class="stat">
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="96">0</span><span class="stat-sfx">%</span>
+            <span class="stat-lbl">Klien Puas</span>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="2">0</span><span class="stat-sfx">+</span>
+            <span class="stat-lbl">Tahun Pengalaman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MARQUEE ──────────────────────────── -->
+    <div class="marquee-wrap">
+      <div class="marquee-fade marquee-fade-l"></div>
+      <div class="marquee-fade marquee-fade-r"></div>
+      <div class="marquee-inner">
+        <span class="m-item">SURYA GROUP</span><span class="m-sep">✦</span>
+        <span class="m-item">BATIK NUSANTARA</span><span class="m-sep">✦</span>
+        <span class="m-item">MEDIKA HEALTH</span><span class="m-sep">✦</span>
+        <span class="m-item">URBAN COFFEE</span><span class="m-sep">✦</span>
+        <span class="m-item">TECHEDU</span><span class="m-sep">✦</span>
+        <span class="m-item">GREEN FARMS</span><span class="m-sep">✦</span>
+        <span class="m-item">PLATINUM REALTY</span><span class="m-sep">✦</span>
+        <span class="m-item">DIGITAL LUXURY</span><span class="m-sep">✦</span>
+        <span class="m-item">SURYA GROUP</span><span class="m-sep">✦</span>
+        <span class="m-item">BATIK NUSANTARA</span><span class="m-sep">✦</span>
+        <span class="m-item">MEDIKA HEALTH</span><span class="m-sep">✦</span>
+        <span class="m-item">URBAN COFFEE</span><span class="m-sep">✦</span>
+        <span class="m-item">TECHEDU</span><span class="m-sep">✦</span>
+        <span class="m-item">GREEN FARMS</span><span class="m-sep">✦</span>
+        <span class="m-item">PLATINUM REALTY</span><span class="m-sep">✦</span>
+        <span class="m-item">DIGITAL LUXURY</span><span class="m-sep">✦</span>
+      </div>
+    </div>
+
+    <!-- ── SERVICES ──────────────────────────── -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-tag">Layanan Eksklusif</span>
+          <h2>Keahlian Yang <span class="purple">Menginspirasi</span></h2>
+          <p>Dari konsepsi hingga implementasi, kami hadirkan solusi digital dengan presisi artistik.</p>
+        </div>
+        <div class="srv-grid">
+
+          <!-- Brand Identity -->
+          <div class="srv-card">
+            <div class="srv-glow"></div>
+            <div class="srv-corner"></div>
+            <div class="srv-icon" style="color:#A78BFA">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L15 8.5L22 9.5L17 14.5L18.5 21.5L12 18L5.5 21.5L7 14.5L2 9.5L9 8.5L12 2Z" fill="currentColor" opacity="0.9"/>
+              </svg>
+            </div>
+            <span class="srv-tag" style="color:#A78BFA;border-color:rgba(167,139,250,.3)">Identitas</span>
+            <h3>Brand Identity</h3>
+            <p>Desain merek yang timeless, mencerminkan jiwa bisnis premium anda dengan identitas visual yang kuat.</p>
+            <span class="srv-more" style="color:#A78BFA">Pelajari Lebih →</span>
+          </div>
+
+          <!-- Web Development -->
+          <div class="srv-card">
+            <div class="srv-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(192,132,252,.14) 0%,transparent 70%)"></div>
+            <div class="srv-corner" style="background:#C084FC"></div>
+            <div class="srv-icon" style="color:#C084FC">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 21H16M12 17V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M7 8L10 11L7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 14H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="srv-tag" style="color:#C084FC;border-color:rgba(192,132,252,.3)">Development</span>
+            <h3>Web Development</h3>
+            <p>Website modern dengan performa tinggi, animasi memukau & UX terbaik yang mengonversi pengunjung.</p>
+            <span class="srv-more" style="color:#C084FC">Pelajari Lebih →</span>
+          </div>
+
+          <!-- E-Commerce -->
+          <div class="srv-card">
+            <div class="srv-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(232,121,249,.14) 0%,transparent 70%)"></div>
+            <div class="srv-corner" style="background:#E879F9"></div>
+            <div class="srv-icon" style="color:#E879F9">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                <path d="M6 2L3 6V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V6L18 2H6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M16 10C16 12.2 14.2 14 12 14C9.8 14 8 12.2 8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="srv-tag" style="color:#E879F9;border-color:rgba(232,121,249,.3)">E-Commerce</span>
+            <h3>E-Commerce Elite</h3>
+            <p>Toko online eksklusif dengan integrasi pembayaran & pengalaman belanja mewah yang meningkatkan konversi.</p>
+            <span class="srv-more" style="color:#E879F9">Pelajari Lebih →</span>
+          </div>
+
+          <!-- SEO -->
+          <div class="srv-card">
+            <div class="srv-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(129,140,248,.14) 0%,transparent 70%)"></div>
+            <div class="srv-corner" style="background:#818CF8"></div>
+            <div class="srv-icon" style="color:#818CF8">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M11 8V11L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="srv-tag" style="color:#818CF8;border-color:rgba(129,140,248,.3)">Marketing</span>
+            <h3>SEO & Visibility</h3>
+            <p>Dominasi mesin pencari dengan strategi SEO komprehensif dan analitik data untuk pertumbuhan bisnis.</p>
+            <span class="srv-more" style="color:#818CF8">Pelajari Lebih →</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ──────────────────────────────── -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-tag">Keahlian Kami</span>
+          <h2>Teknologi yang <span class="purple">Kami Kuasai</span></h2>
+          <p>Kami menguasai berbagai teknologi modern untuk menghadirkan solusi digital terbaik.</p>
+        </div>
+
+        <!-- Tech Pills -->
+        <div class="tech-cloud">
+          <span class="tc-pill" style="color:#F97316;border-color:rgba(249,115,22,.3);background:rgba(249,115,22,.08)">HTML</span>
+          <span class="tc-pill" style="color:#3B82F6;border-color:rgba(59,130,246,.3);background:rgba(59,130,246,.08)">CSS</span>
+          <span class="tc-pill" style="color:#EAB308;border-color:rgba(234,179,8,.3);background:rgba(234,179,8,.08)">JavaScript</span>
+          <span class="tc-pill" style="color:#60A5FA;border-color:rgba(96,165,250,.3);background:rgba(96,165,250,.08)">TypeScript</span>
+          <span class="tc-pill" style="color:#22D3EE;border-color:rgba(34,211,238,.3);background:rgba(34,211,238,.08)">React</span>
+          <span class="tc-pill" style="color:#22C55E;border-color:rgba(34,197,94,.3);background:rgba(34,197,94,.08)">Node.js</span>
+          <span class="tc-pill" style="color:#A78BFA;border-color:rgba(167,139,250,.3);background:rgba(167,139,250,.08)">Tailwind</span>
+          <span class="tc-pill" style="color:#818CF8;border-color:rgba(129,140,248,.3);background:rgba(129,140,248,.08)">PHP</span>
+          <span class="tc-pill" style="color:#F472B6;border-color:rgba(244,114,182,.3);background:rgba(244,114,182,.08)">MySQL</span>
+          <span class="tc-pill" style="color:#FB923C;border-color:rgba(251,146,60,.3);background:rgba(251,146,60,.08)">Figma</span>
+          <span class="tc-pill" style="color:#F87171;border-color:rgba(248,113,113,.3);background:rgba(248,113,113,.08)">Git</span>
+          <span class="tc-pill" style="color:#4ADE80;border-color:rgba(74,222,128,.3);background:rgba(74,222,128,.08)">GSAP</span>
+        </div>
+
+        <!-- Skill Category Cards -->
+        <div class="skills-grid">
+
+          <!-- Frontend -->
+          <div class="sk-card">
+            <div class="sk-head">
+              <div class="sk-icon-wrap" style="background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.3);color:#A78BFA">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M8 21H16M12 17V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M6 8L9 11L6 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 14H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sk-title">Frontend</div>
+                <div class="sk-count">6 keahlian</div>
+              </div>
+              <span class="sk-dot" style="background:#A78BFA;box-shadow:0 0 8px #A78BFA"></span>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row"><span>HTML5</span><span class="sk-pct" style="color:#A78BFA">95%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:95%;--c:#A78BFA"></div></div>
+              <div class="sk-row"><span>CSS3</span><span class="sk-pct" style="color:#A78BFA">92%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:92%;--c:#A78BFA"></div></div>
+              <div class="sk-row"><span>JavaScript</span><span class="sk-pct" style="color:#A78BFA">90%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:90%;--c:#A78BFA"></div></div>
+              <div class="sk-row"><span>TypeScript</span><span class="sk-pct" style="color:#A78BFA">82%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:82%;--c:#A78BFA"></div></div>
+              <div class="sk-row"><span>React.js</span><span class="sk-pct" style="color:#A78BFA">88%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:88%;--c:#A78BFA"></div></div>
+              <div class="sk-row"><span>Tailwind CSS</span><span class="sk-pct" style="color:#A78BFA">93%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:93%;--c:#A78BFA"></div></div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="sk-card">
+            <div class="sk-head">
+              <div class="sk-icon-wrap" style="background:rgba(34,211,238,.1);border-color:rgba(34,211,238,.3);color:#22D3EE">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="3" width="20" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <rect x="2" y="12" width="20" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <circle cx="6.5" cy="6" r="1" fill="currentColor"/>
+                  <circle cx="6.5" cy="15" r="1" fill="currentColor"/>
+                  <path d="M10 6H18M10 15H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sk-title">Backend</div>
+                <div class="sk-count">6 keahlian</div>
+              </div>
+              <span class="sk-dot" style="background:#22D3EE;box-shadow:0 0 8px #22D3EE"></span>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row"><span>Node.js</span><span class="sk-pct" style="color:#22D3EE">80%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:80%;--c:#22D3EE"></div></div>
+              <div class="sk-row"><span>PHP</span><span class="sk-pct" style="color:#22D3EE">75%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:75%;--c:#22D3EE"></div></div>
+              <div class="sk-row"><span>Express.js</span><span class="sk-pct" style="color:#22D3EE">78%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:78%;--c:#22D3EE"></div></div>
+              <div class="sk-row"><span>REST API</span><span class="sk-pct" style="color:#22D3EE">85%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:85%;--c:#22D3EE"></div></div>
+              <div class="sk-row"><span>MySQL</span><span class="sk-pct" style="color:#22D3EE">72%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:72%;--c:#22D3EE"></div></div>
+              <div class="sk-row"><span>MongoDB</span><span class="sk-pct" style="color:#22D3EE">68%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:68%;--c:#22D3EE"></div></div>
+            </div>
+          </div>
+
+          <!-- Tools & Design -->
+          <div class="sk-card">
+            <div class="sk-head">
+              <div class="sk-icon-wrap" style="background:rgba(52,211,153,.1);border-color:rgba(52,211,153,.3);color:#34D399">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="sk-title">Tools & Design</div>
+                <div class="sk-count">6 keahlian</div>
+              </div>
+              <span class="sk-dot" style="background:#34D399;box-shadow:0 0 8px #34D399"></span>
+            </div>
+            <div class="sk-bars">
+              <div class="sk-row"><span>Git & GitHub</span><span class="sk-pct" style="color:#34D399">88%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:88%;--c:#34D399"></div></div>
+              <div class="sk-row"><span>Figma</span><span class="sk-pct" style="color:#34D399">80%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:80%;--c:#34D399"></div></div>
+              <div class="sk-row"><span>VS Code</span><span class="sk-pct" style="color:#34D399">96%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:96%;--c:#34D399"></div></div>
+              <div class="sk-row"><span>Webpack / Vite</span><span class="sk-pct" style="color:#34D399">76%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:76%;--c:#34D399"></div></div>
+              <div class="sk-row"><span>GSAP</span><span class="sk-pct" style="color:#34D399">74%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:74%;--c:#34D399"></div></div>
+              <div class="sk-row"><span>Framer Motion</span><span class="sk-pct" style="color:#34D399">78%</span></div>
+              <div class="sk-bar"><div class="sk-fill" style="--w:78%;--c:#34D399"></div></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Highlight Cards -->
+        <div class="hl-grid">
+          <div class="hl-card">
+            <div class="hl-ico">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M7 8L10 11L7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 14H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="hl-name">Web Development</div>
+            <div class="hl-desc">Website cepat & modern</div>
+          </div>
+          <div class="hl-card">
+            <div class="hl-ico">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M12 19L19 12L22 15L15 22L12 19Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 13L16.5 5.5L2 2L5.5 16.5L13 18L18 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 2L9.586 9.586" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="11" cy="11" r="2" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="hl-name">UI/UX Design</div>
+            <div class="hl-desc">Tampilan intuitif & elegan</div>
+          </div>
+          <div class="hl-card">
+            <div class="hl-ico">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="3" width="20" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="2" y="12" width="20" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="6" cy="6" r="1" fill="currentColor"/>
+                <circle cx="6" cy="15" r="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="hl-name">Backend Systems</div>
+            <div class="hl-desc">API & database handal</div>
+          </div>
+          <div class="hl-card">
+            <div class="hl-ico">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="2" y="6" width="4" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="18" y="6" width="4" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M9 9H15M9 15H15" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="hl-name">Responsive Design</div>
+            <div class="hl-desc">Optimal di semua device</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── ABOUT ──────────────────────────────── -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-tag">Tentang Kami</span>
+          <h2>About <span class="purple">Me</span></h2>
+          <p class="about-subtitle">
+        </div>
+        <div class="about-grid">
+
+          <!-- Left: Personal intro -->
+          <div class="about-left">
+            <h2 class="about-name">PT STORE</h2>
+            <p class="about-desc">
+              Menghadirkan identitas digital berkelas. Kami menggabungkan keindahan visual, teknologi mutakhir, dan strategi bisnis untuk menciptakan karya digital yang meningkatkan derajat brand Anda.
+            </p>
+            <div class="feat-grid">
+              <div class="feat"><span class="chk">✓</span> Tim 1 Orang</div>
+              <div class="feat"><span class="chk">✓</span> Proses Transparan</div>
+              <div class="feat"><span class="chk">✓</span> Dukungan 24/7</div>
+              <div class="feat"><span class="chk">✓</span> Garansi Kepuasan</div>
+            </div>
+          <div>
+            </div>
+          </div>
+
+          <!-- Right: Circular avatar with glow -->
+          <div class="about-right">
+            <div class="about-avatar-wrap">
+              <div class="avatar-glow-outer"></div>
+              <div class="avatar-glow-inner"></div>
+              <div class="avatar-circle">
+                <div class="avatar-silhouette">
+                  <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="75" r="42" fill="rgba(139,92,246,0.25)" stroke="rgba(139,92,246,0.4)" stroke-width="1.5"/>
+                    <path d="M30 190 Q50 140 100 135 Q150 140 170 190" fill="rgba(139,92,246,0.2)" stroke="rgba(139,92,246,0.35)" stroke-width="1.5"/>
+                    <circle cx="100" cy="72" r="32" fill="rgba(100,70,200,0.3)"/>
+                    <ellipse cx="100" cy="60" rx="16" ry="18" fill="rgba(139,92,246,0.5)"/>
+                    <path d="M68 145 Q70 125 100 120 Q130 125 132 145" fill="rgba(80,50,160,0.4)"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="avatar-ring avatar-ring-1"></div>
+              <div class="avatar-ring avatar-ring-2"></div>
+
+              <!-- Floating badge: experience -->
+              <div class="float-years">
+                <div class="yr-num">2+</div>
+                <div class="yr-lbl">Tahun</div>
+              </div>
+                <div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PRICING ──────────────────────────────── -->
+    <section id="contact" class="pricing">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-tag">Investasi Transparan</span>
+          <h2>Pilihan Paket <span class="purple">Premium</span></h2>
+          <p>Sesuaikan kebutuhan bisnis Anda dengan harga yang jelas dan berkualitas.</p>
+        </div>
+        <div class="price-grid">
+
+          <div class="price-card">
+            <div class="price-amt">Rp 175K</div>
+            <div class="price-sub">paket lengkap</div>
+            <ul class="price-list">
+              <li>3 Halaman Custom</li>
+              <li>Free Hosting 1 Tahun</li>
+              <li>Free Domain .my.id 1 Tahun</li>
+              <li>Support 2 Api key</li>
+              <li>Support Garansi 1 Minggu</li>
+            </ul>
+          </div>
+
+          <div class="price-card featured">
+            <div class="pop-badge">Paling Laris</div>
+            <div class="price-amt">Rp 463K</div>
+            <div class="price-sub">paket lengkap</div>
+            <ul class="price-list">
+              <li>8 Halaman Custom</li>
+              <li>Free Hosting 1 Tahun</li>
+              <li>Free Domain .com 1 Tahun</li>
+              <li>Upgrade Desain Tertentu Free</li>
+              <li>Support 4 Api key</li>
+              <li>Support Garansi 2 Minggu</li>
+            </ul>
+          </div>
+
+          <div class="price-card">
+            <div class="price-amt">Custom</div>
+            <div class="price-sub">paket enterprise</div>
+            <ul class="price-list">
+              <li>Free Hosting 1 Tahun</li>
+              <li>Domain Custom Pilihan</li>
+              <li>Halaman Tidak Terbatas</li>
+              <li>Api Key Unlimited</li>
+              <li>Garansi & Support</li>
+              <li>Konsultasi Langsung</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ────────────────────────── -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="sec-header">
+          <span class="sec-tag">Kata Klien</span>
+          <h2>Dipercaya oleh<br><span class="purple">Brand Ternama</span></h2>
+        </div>
+        <div class="testi-grid">
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <div class="big-quote">"</div>
+            <p>"Kualitas desain dan performa website di luar ekspektasi. Omzet online kami meningkat drastis!"</p>
+            <div class="client-row">
+              <div class="client-av">B</div>
+              <div>
+                <div class="client-name">Budi Santoso</div>
+                <div class="client-role">CEO, Surya Group</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <div class="big-quote">"</div>
+            <p>"PT STORE mengubah cara kami berbisnis. Sangat direkomendasikan untuk brand premium."</p>
+            <div class="client-row">
+              <div class="client-av">D</div>
+              <div>
+                <div class="client-name">Dewi Lestari</div>
+                <div class="client-role">Owner, Batik Nusantara</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="f-brand">
+          <div class="logo f-logo">PT<span class="dot">●</span>STORE</div>
+          <p>Menwarkan jasa pembuatan website prefsiona moderen dan elegan dengan harag ramah di kantong</p>
+          <div class="avail">
+            <span class="avail-dot"></span>
+            Tersedia untuk proyek baru
+          </div>
+        </div>
+        <div class="f-col">
+          <h4>Navigasi</h4>
+          <a href="#home">Beranda</a>
+          <a href="#services">Layanan</a>
+          <a href="#skills">Keahlian</a>
+          <a href="#about">Tentang</a>
+        </div>
+        <div class="f-col">
+          <h4>Sosial</h4>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Behance</a>
+        </div>
+        <div class="f-col">
+          <h4>Kontak</h4>
+          <a href="tel:+6281548282195">0815-4828-2195</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 PT STORE — PORTOFOLIO. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
