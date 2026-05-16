@@ -1170,7 +1170,7 @@ img {
 .footer {
   background: #020207;
   border-top: 1px solid rgba(139, 92, 246, 0.1);
-  padding: 76px 0 30px;
+  padding: 60px 0 30px;
 }
 
 .footer-grid {
@@ -1178,59 +1178,67 @@ img {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 44px;
-  margin-bottom: 52px;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+/* Brand Section */
+.f-brand {
+  flex: 1;
+  min-width: 250px;
 }
 
 .f-brand .f-logo {
-  font-size: 1.45rem;
-  margin-bottom: 14px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
-.f-brand > p {
-  font-size: 0.83rem;
-  color: #6B7280;
-  line-height: 1.7;
-  max-width: 250px;
+.f-brand>p {
+  font-size: 0.85rem;
+  color: #9CA3AF;
+  line-height: 1.6;
+  max-width: 280px;
+  margin-bottom: 15px;
 }
 
 .avail {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 18px;
-  font-size: 0.73rem;
+  font-size: 0.75rem;
   color: #6B7280;
 }
 
 .avail-dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   background: #22C55E;
   border-radius: 50%;
   animation: pulseDot 2s ease-in-out infinite;
 }
 
-.footer-right {
+/* Navigation & Contact - sebelah kanan */
+.footer-nav {
   display: flex;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .f-col h4 {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .f-col a {
   display: block;
-  font-size: 0.83rem;
-  color: #6B7280;
-  margin-bottom: 11px;
+  font-size: 0.85rem;
+  color: #9CA3AF;
+  margin-bottom: 12px;
   transition: color 0.2s;
 }
 
@@ -1238,20 +1246,51 @@ img {
   color: #A78BFA;
 }
 
+/* Copyright */
 .footer-bottom {
-  padding-top: 26px;
+  padding-top: 25px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
   text-align: center;
 }
 
 .footer-bottom span {
-  font-size: 0.76rem;
+  font-size: 0.75rem;
   color: #4B5563;
+}
+
+/* ========== RESPONSIVE FOOTER ========== */
+@media (max-width: 768px) {
+  .footer-grid {
+    flex-direction: column;
+    gap: 35px;
+  }
+  
+  .footer-nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .f-brand>p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+  
+  .footer-nav {
+    gap: 25px;
+  }
+  
+  .f-col h4 {
+    margin-bottom: 15px;
+  }
+  
+  .f-col a {
+    margin-bottom: 8px;
+  }
 }
 
 /* ========== RESPONSIVE ========== */
